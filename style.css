@@ -1,0 +1,35 @@
+#applicationList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+#applicationList > div {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+#applicationList h3 {
+    margin-bottom: 10px;
+}
+
+#applicationList p {
+    margin-bottom: 8px;
+}
+#applicationForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+} 
+
+#applicationForm input {
+    padding: 10px;
+}
+
+#applicationForm button {
+    padding: 10px;
+    cursor: pointer;
+}
